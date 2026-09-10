@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Word Wall — Python (FastAPI + WebSockets)
 
 Stage 1 of the Python rebuild: the **real-time core**. A teacher posts prompts, a
@@ -68,3 +69,6 @@ e.g. `http://192.168.1.20:8000`).
 3. **Anthropic AI** — open-response prior-knowledge feedback + class summary (the key
    stays server-side; no separate proxy needed because FastAPI *is* the server).
 4. **Deploy + guardrails** — hosting, spending caps, rate limits, error handling.
+=======
+# word-wall
+>>>>>>> adef85a9c527d78988174a4e5ac148ef8abbf72c
