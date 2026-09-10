@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Word Wall — Join</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<!-- JOIN -->
+<div id="join" class="center">
+  <div class="card stack" style="width:min(460px,100%);text-align:center">
+    <div class="muted small" style="font-weight:700">◆ WORD WALL</div>
+    <h1 style="font-size:32px">Join the room</h1>
+    <div class="stack" style="text-align:left">
+      <div><label class="field">Room code</label><input id="code" class="input" maxlength="6" placeholder="ABCD" style="text-transform:uppercase;letter-spacing:.15em;font-weight:700;font-size:22px"></div>
+      <div><label class="field">Your name</label><input id="name" class="input" placeholder="e.g. Sam"></div>
+      <div id="join-err" class="pill danger hidden"></div>
+      <button id="go" class="btn primary big full">Join →</button>
+      <a class="btn ghost small" href="/">← Back</a>
+    </div>
+  </div>
+</div>
+
+<!-- PLAY -->
+<div id="play" class="focus hidden">
+  <div class="top">
+    <span class="badge" id="me">—</span>
+    <span class="badge" id="room">Room ----</span>
+  </div>
+  <div class="mid" id="stage"></div>
+</div>
+<script src="/static/student.js"></script>
+</body>
+</html>
